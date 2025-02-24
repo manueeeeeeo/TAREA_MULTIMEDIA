@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="filter_audio"
+        android:title="Mostrar Audio"
+        android:summary="Mostrar recursos de tipo audio"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="filter_video"
+        android:title="Mostrar Video"
+        android:summary="Mostrar recursos de tipo video"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="filter_streaming"
+        android:title="Mostrar Streaming"
+        android:summary="Mostrar recursos de tipo streaming"
+        android:defaultValue="true" />
+</PreferenceScreen>
